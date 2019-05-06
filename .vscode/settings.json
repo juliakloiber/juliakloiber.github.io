@@ -1,0 +1,25 @@
+{
+    "files.exclude": {
+        "_site": true,
+        ".bundle": true,
+        ".jekyll-metadata": true,
+        ".sass-cache": true,
+        ".vscode": true,
+        "**/.git": true,
+        "vendor": true
+    },
+    "html.format.endWithNewline": true,
+    "html.format.extraLiners": "",
+    "html.format.indentInnerHtml": true,
+    "html.format.maxPreserveNewLines": 1,
+    "html.format.unformatted": "style",
+    "html.validate.styles": false,
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": ".(css|html|md)*",
+                "cmd": "sleep 0.4; osascript -e 'tell application \"Safari\" to tell every tab of window 1 whose URL contains \"0.0.0.0:4000\" to do JavaScript \"window.location.reload(true);\"' -e \"return\""
+            }
+        ]
+    }
+}

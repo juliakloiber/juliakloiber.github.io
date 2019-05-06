@@ -1,0 +1,29 @@
+title: Julia Kloiber
+email: mail@juliakloiber.com
+
+baseurl: ""
+url: "http://juliakloiber.com"
+twitter_username: j_kloiber
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+permalink: /:title
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: post
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

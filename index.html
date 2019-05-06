@@ -1,0 +1,107 @@
+---
+layout: default
+---
+
+<section id="intro">
+    <blockquote class="h1">
+        Hi – I’m Julia.<br><br>
+        I build programs that promote technology for the common good and advocate for gender equality.
+    </blockquote>
+
+    <p>
+        I’m a Managing Director at <a href="http://superrr.net">Superrr Lab</a> and Partner at <a
+            href="https://www.ashoka.org/de">Ashoka Germany</a>. I’ve
+        worked with international
+        non-profits such
+        as the Mozilla Foundation and Open Knowledge Foundation. I advice governments and businesses in digital
+        strategies and give
+        talks
+        at conferences. Want to work with me or hire me as a speaker for your conference? Get in touch.
+    </p>
+</section>
+
+<hr>
+
+<section id="projects" class="category">
+    <h1>Projects</h1>
+    <p>
+        For the past 10 years I’ve been developing projects and programs that promote transparency, develop civic
+        tech, help to speculate about the future and empower women.
+    </p>
+    <div class="card-holder" data-category="projects">
+        {% for post in site.categories.projects %}
+        {% if post.featured %}
+        {% include card.html %}
+        {% endif %}
+        {% endfor %}
+    </div>
+</section>
+
+<section id="talks" class="category">
+    <h1>Talks</h1>
+    <p>From Beijing to San Francisco, I've travelled the world to speak at conferences. My most recent talks deal
+        with
+        speculations about the future.</p>
+    <div class="card-holder" data-category="talks">
+        {% for post in site.categories.talks %}
+        {% if post.featured %}
+        {% include card.html %}
+        {% endif %}
+        {% endfor %}
+    </div>
+</section>
+
+<section id="articles" class="category">
+    <h1>Published</h1>
+    <p>
+        My work has been published by Wired, Zeit Online, Süddeutsche Zeitung &
+        Frankfurter Allgemeine Zeitung and others.
+        In 2019 I was the Editor in Chief of Ding magazine.
+    </p>
+    <div class="card-holder tall-cards" data-category="articles">
+        {% for post in site.categories.articles %}
+        {% if post.featured %}
+        {% include card.html %}
+        {% endif %}
+        {% endfor %}
+    </div>
+</section>
+
+<script>
+    // Save and restore `scrollLeft`.
+    window.onpageshow = (event) => {
+        document.querySelectorAll(".card-holder").forEach((cardHolder) => {
+            var key = cardHolder.dataset.category + "-scrollLeft"
+
+            cardHolder.scrollLeft = localStorage.getItem(key)
+
+            // Save scrollLeft.
+            cardHolder.onscroll = (event) => {
+                localStorage.setItem(key, cardHolder.scrollLeft)
+            }
+        })
+    }
+    document.querySelectorAll(".card-holder").forEach((cardHolder) => {
+        // Scroll cards into view.
+        cardHolder.querySelectorAll('.card').forEach((card) => {
+            card.onclick = (event) => {
+                var targetOffset = card.offsetLeft - cardHolder.childNodes[1].offsetLeft
+                var currentOffset = cardHolder.scrollLeft
+
+                var rect = card.getBoundingClientRect()
+
+                if (0 <= rect.left && rect.right <= (window.innerWidth || document.documentElement.clientWidth)) {
+                    return true
+                }
+
+                cardHolder.scrollTo({
+                    top: 0,
+                    left: targetOffset,
+                    behavior: "smooth"
+                })
+
+                return false
+            }
+        })
+    })
+</script>

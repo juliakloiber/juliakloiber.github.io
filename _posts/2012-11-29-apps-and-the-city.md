@@ -1,7 +1,7 @@
 ---
 title: Apps & the City
 categories: projects
-summary: Im Herbst 2012 hat der Verkehrsverbund Berlin/Brandenburg als erste Verbund Deutschlands seine Nahverkehrsdaten geöffnet!
+summary: Germany's first Open Transport hackathon series
 ---
 
 # Apps & the City

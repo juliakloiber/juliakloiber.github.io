@@ -1,5 +1,5 @@
 ---
-title: Superrr
+title: Superrr Lab
 featured: true
 categories: projects
 summary: Demanding inclusive and radically diverse digital futures

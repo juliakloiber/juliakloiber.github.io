@@ -2,7 +2,7 @@
 title: FAZ Online – Bitte ein Byte
 featured: true
 categories: articles
-summary: "Interview: This is how women thrive in tech"
+summary: The State of Open Data in Germany
 preview-image: /img/magazines/faz-online-small.png
 ---
 

@@ -57,6 +57,8 @@ p, ul, img {
 
 ul li {
     list-style-type: none;
+    margin-top: calc(var(--line-height) / 2);
+    margin-bottom: calc(var(--line-height) / 2);
 }
 
 article ul li::before {

@@ -10,4 +10,9 @@
     </style>
 
     <script src="/src/polyfills/smoothscroll/smoothscroll.min.js" async></script>
+    {% if page.title %}
+    <title>{{ page.title }} – Julia Kloiber</title>
+    {% else %}
+    <title>Julia Kloiber</title>
+    {% endif %}
 </head>

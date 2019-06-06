@@ -8,7 +8,7 @@ title: About
 
 <img class="picture right" src="/img/about/julia.jpg" />
 
-Julia Kloiber is the Founder of [Superrr Lab] – a feminist think tank and consultancy and a partner at [Ashoka Germany]. She develops strategies and concepts for the digital world.
+Julia Kloiber is the Founder of [Superrr Lab] – a research and advocacy organization and a partner at [Ashoka Germany]. She develops strategies and concepts for the digital world.
 
 Julia has put her expertise in technology, design and media studies to use for the [Mozilla Foundation], the [Open Knowledge Foundation] and [The Engine Room]. She has been running multiple projects that foster the reuse of open data and promote transparency – such as Germany’s first Civic Tech Incubator ‘[Stadt Land Code]’. She enjoys speaking at international conferences, such as TED, the Personal Democracy Forum or the World Design Conference. As digital strategy advisor she is working with government institutions and businesses alike.
 

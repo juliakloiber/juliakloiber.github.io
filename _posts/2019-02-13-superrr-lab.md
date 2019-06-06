@@ -8,7 +8,7 @@ preview-image: /img/projects/superrr-lab.jpg
 	
 # Superrr Lab
 
-[Superrr Lab] is a feminist think tank and consultancy founded by Elisa Lindinger and Julia Kloiber in 2019. The organization helps public and private entities to develop ethical open and inclusive technology.
+[Superrr Lab] is a research and advocacy organization dedicated to promoting the ethical use of technology and the empowerment of people. The organization was founded in 2019 by Elisa Lindinger and Julia Kloiber. Superrr Lab helps public and private entities to work on inclusive innovations in tech and beyond.
 
 The first project of Superrr Lab is a [Feminist Tech Fellowship], supported by the Mozilla Foundation. The fellowship supports women in tech to develop open and inclusive tools and to test new approaches. 
 

@@ -443,9 +443,39 @@ hr {
     margin-bottom: calc(1.5 * var(--line-height));
 }
 
+#intro .logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+
+    margin: 0 -15px -30px -15px;
+}
+
+#intro .logos img {
+    max-width: 33%;
+    max-height: 30px;
+
+    min-height: 44px;
+
+    mix-blend-mode: darken;
+    opacity: 0.6;
+
+    margin: 15px 20px;
+
+    transition: all 0.4s;
+    transition-delay: 0.2s;
+}
+
+#intro .logos img:hover {
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    transition-delay: 0s;
+}
+
 section.category {
     background-color: var(--category-color);
-
 }
 
 #projects {

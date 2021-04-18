@@ -3,7 +3,7 @@ title: Digital, aber gut
 featured: true
 categories: articles
 summary: Female pioneers in tech for society
-preview-image: /img/magazines/die-zeit-philantrophie.png
+preview-image: /img/magazines/die-zeit-wirtschaft.png
 ---
 
 # Digital, aber gut

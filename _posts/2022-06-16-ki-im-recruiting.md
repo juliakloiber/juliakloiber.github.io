@@ -3,7 +3,7 @@ categories: column
 featured: true
 title: Die KI-Illusion
 summary: MIT Technology Review Germany
-preview-image: /img/talks/column1.jpg
+preview-image: /img/column/column1.jpg
 ---
 
 # KI im Recruiting: Mist, aber trotzdem im Einsatz 
@@ -13,4 +13,5 @@ Künstliche Intelligenz soll Zeit sparen und Probleme lösen – zum Beispiel au
 Den ganzen Text <a href="https://www.heise.de/hintergrund/KI-im-Recruiting-Mist-aber-trotzdem-im-Einsatz-6668717.html">lesen.</a>
 
 Illustration von Anna Niedhart.
+
 [MIT Technology Review]: https://www.heise.de/hintergrund/KI-im-Recruiting-Mist-aber-trotzdem-im-Einsatz-6668717.html

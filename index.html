@@ -53,6 +53,19 @@ layout: default
     </div>
 </section>
 
+<section id="column" class="category">
+    <h1>Column</h1>
+    <p>I'm writing a monthly column for MIT Technology Review Germany. Here you can find my most recent texts:
+    </p>
+    <div class="card-holder" data-category="column">
+        {% for post in site.categories.column %}
+        {% if post.featured %}
+        {% include card.html %}
+        {% endif %}
+        {% endfor %}
+    </div>
+</section>
+
 <section id="talks" class="category">
     <h1>Talks</h1>
     <p>From Beijing to San Francisco, I've travelled the world to speak at conferences. My most recent talks deal

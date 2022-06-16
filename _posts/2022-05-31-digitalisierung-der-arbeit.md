@@ -3,7 +3,7 @@ categories: column
 featured: true
 title: Digitalisierung der Arbeit
 summary: MIT Technology Review Germany
-preview-image: /img/column/column1.jpg
+preview-image: /img/column/column2.jpg
 ---
 
 # Digitalisierung der Arbeit: Wir hängen im Hamsterrad der Produktivität fest.

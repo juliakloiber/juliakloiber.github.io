@@ -100,6 +100,10 @@ article {
     padding-bottom: var(--line-height);
 }
 
+article img {
+    max-width: 100%;
+}
+
 h1,
 .h1 {
     font-size: var(--h1-font-size);

@@ -8,7 +8,7 @@ preview-image: /img/column/column1.jpg
 
 # KI im Recruiting: Mist, aber trotzdem im Einsatz 
 
-![](/img/column/column1.jpg)
+![](/img/column/mag1.jpg)
 
 Meine erste Kolumne für den [MIT Technology Review] April 2022.
 Künstliche Intelligenz soll Zeit sparen und Probleme lösen – zum Beispiel auch im Recruiting. Das funktioniert aber nur bedingt. 

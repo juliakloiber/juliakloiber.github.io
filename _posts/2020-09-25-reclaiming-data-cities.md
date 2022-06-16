@@ -1,7 +1,7 @@
 ---
 categories: talks
 featured: true
-title: Reclaiming Data Cities: Fighting for the Future We Really Want
+title: "Reclaiming Data Cities: Fighting for the Future We Really Want"
 summary: Disruption Lab
 preview-image: /img/talks/datacities.jpg
 ---

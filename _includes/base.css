@@ -1,11 +1,17 @@
 @import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
 @supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
+    html {
+        font-family: 'Inter var', sans-serif;
+    }
 }
 
 @viewport {
-  width: width;
+    width: width;
 }
 
 * {
@@ -48,11 +54,11 @@ html {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: none;
 
-    -moz-font-feature-settings:    'dlig' 1;
-    -ms-font-feature-settings:     'dlig' 1;
-    -o-font-feature-settings:      'dlig' 1;
+    -moz-font-feature-settings: 'dlig' 1;
+    -ms-font-feature-settings: 'dlig' 1;
+    -o-font-feature-settings: 'dlig' 1;
     -webkit-font-feature-settings: 'dlig' 1;
-    font-feature-settings:         'dlig' 1;
+    font-feature-settings: 'dlig' 1;
 }
 
 @supports (font-variation-settings: normal) {
@@ -61,7 +67,9 @@ html {
     }
 }
 
-p, ul, img {
+p,
+ul,
+img {
     margin-bottom: var(--line-height);
 }
 
@@ -80,14 +88,20 @@ article ul li::before {
     top: -1px;
 }
 
-:first-child { margin-top: unset; }
-:last-child { margin-bottom: unset; }
+:first-child {
+    margin-top: unset;
+}
+
+:last-child {
+    margin-bottom: unset;
+}
 
 article {
     padding-bottom: var(--line-height);
 }
 
-h1, .h1 {
+h1,
+.h1 {
     font-size: var(--h1-font-size);
     font-weight: 400;
     letter-spacing: -0.022em;
@@ -97,7 +111,8 @@ h1, .h1 {
     word-break: break-word;
 }
 
-h2, .h2 {
+h2,
+.h2 {
     font-size: var(--h2-font-size);
     font-weight: 500;
     letter-spacing: -0.017em;
@@ -119,14 +134,17 @@ h4 {
     line-height: calc(var(--line-height));
 }
 
-p, nav li, nav h1 {
+p,
+nav li,
+nav h1 {
     font-size: var(--font-size);
     letter-spacing: -0.011em;
     line-height: var(--line-height);
     margin-bottom: var(--line-height);
 }
 
-small, time {
+small,
+time {
     font-size: calc(0.85 * var(--font-size));
     letter-spacing: -0.006em;
     line-height: var(--line-height);
@@ -158,7 +176,8 @@ body {
     }
 }
 
-body, section.category {
+body,
+section.category {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -169,17 +188,26 @@ section.category {
     align-self: stretch;
 }
 
-body > section, body > nav, body > footer, .category > * {
+body>section,
+body>nav,
+body>footer,
+.category>* {
     width: var(--main-column-width);
 }
 
 @media only screen and (max-width: 905px) {
-    body > section, body > nav, body > footer, .category > * {
+
+    body>section,
+    body>nav,
+    body>footer,
+    .category>* {
         width: 90vw;
     }
 }
 
-header, section, footer {
+header,
+section,
+footer {
     padding-top: calc(2 * var(--line-height));
     padding-bottom: var(--line-height);
 }
@@ -189,7 +217,8 @@ nav {
     margin-bottom: calc(1.5 * var(--line-height));
 }
 
-nav, nav ul {
+nav,
+nav ul {
     align-items: baseline;
     display: flex;
     flex-direction: row;
@@ -221,7 +250,8 @@ hr {
     margin-bottom: 11px;
 }
 
-#intro, #intro + hr {
+#intro,
+#intro+hr {
     margin-bottom: calc(1.5 * var(--line-height));
 }
 
@@ -273,7 +303,8 @@ section.category {
     --category-color: #C9DFCA;
 }
 
-#articles, footer {
+#articles,
+footer {
     --category-color: #FF9683;
 }
 
@@ -314,7 +345,8 @@ section.category {
     display: none;
 }
 
-.card-holder:before, .card-holder:after {
+.card-holder:before,
+.card-holder:after {
     content: '';
     display: block;
     height: 1px;
@@ -342,19 +374,22 @@ section.category {
     overflow: hidden;
 
 }
+
 .card {
     display: flex;
     flex-direction: column;
 }
 
-.card .title, .card .subtitle {
+.card .title,
+.card .subtitle {
     font-weight: inherit;
     margin-left: var(--line-height);
     margin-right: var(--line-height);
     order: 2;
 }
 
-.card::before, .card::after {
+.card::before,
+.card::after {
     display: block;
     content: '';
     flex-grow: 1;
@@ -402,7 +437,8 @@ article blockquote {
     padding-left: calc(var(--column-gap) / 2 - 4px);
 }
 
-.picture.right, .picture.left {
+.picture.right,
+.picture.left {
     width: calc(13 * var(--line-height));
     margin-bottom: var(--line-height);
 }
@@ -422,7 +458,9 @@ article blockquote {
 }
 
 @media only screen and (max-width: 700px) {
-    .picture.right, .picture.left {
+
+    .picture.right,
+    .picture.left {
         float: unset;
         margin: unset;
         width: 100%;

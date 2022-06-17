@@ -11,3 +11,6 @@ preview-image: /img/column/column2.jpg
 ![](/img/column/mag2.jpg)
 
 Im digitalen Zeitalter ist Effizienz alles. Doch wie sollen wir im produktiven Dauerstress Zeit finden, um über die Zukunft nachzudenken?
+Den ganzen Text <a href="https://www.heise.de/select/tr/2022/4/2210212544688993803">lesen.</a>
+
+Illustration von Anna Niedhart.

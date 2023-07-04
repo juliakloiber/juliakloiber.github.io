@@ -2,7 +2,7 @@
 categories: talks
 featured: true
 title: "Content Moderation – Exploitation as a Service"
-summary: republica
+summary: republica 2023
 preview-image: /img/talks/republica.jpg
 ---
 

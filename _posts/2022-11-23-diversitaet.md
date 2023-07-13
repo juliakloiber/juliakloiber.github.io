@@ -8,7 +8,7 @@ preview-image: /img/column/kolumne_diversitaet.jpg
 
 # Mehr Diversität allein hilft nicht in der Tech-Branche 
 
-<p>Kolumne für den <a href="https://www.heise.de/meinung/Kommentar-Mehr-Diversitaet-allein-hilft-nicht-in-der-Techbranche-7349535.html">MIT Technology Review </a> Novermber 2022.</p>
+<p>Kolumne für den <a href="https://www.heise.de/meinung/Kommentar-Mehr-Diversitaet-allein-hilft-nicht-in-der-Techbranche-7349535.html">MIT Technology Review </a> November 2022.</p>
 <b>Wenn mehr Frauen in Tech-Unternehmen Einzug halten, heißt das noch nicht, dass alles besser wird. Dafür müsste die Macht neu verteilt werden.</b>
 
 <p>Unsere Welt ist voll von (vermeintlich) einfachen Lösungen für komplexe Probleme: Wir kompensieren den CO2-Ausstoß unserer geflogenen Kilometer, indem wir Bäume pflanzen. Regierungen führen Überwachung ein, um Kindesmissbrauch zu bekämpfen. Und Unternehmen setzen auf Diversität, um diskriminierende KI unter Kontrolle zu bekommen.
